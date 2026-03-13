@@ -1,4 +1,4 @@
-/* Reset and basic styling */
+/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -79,7 +79,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Forms styling */
+/* Forms */
 form, #uploadForm {
   background-color: white;
   padding: 25px;
@@ -111,7 +111,7 @@ button:hover {
   background-color: #005ea1;
 }
 
-/* Photo detail page */
+/* Photo details */
 #photo-container img {
   display: block;
   margin: 0 auto;
