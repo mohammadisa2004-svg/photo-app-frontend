@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo App - Search</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <h1>Photo App</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="creator.html">Upload</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2 style="text-align:center; margin:20px 0;">Search Photos</h2>
+    <form onsubmit="event.preventDefault(); searchPhotos();">
+      <input type="text" id="query" placeholder="Search photos">
+      <button type="submit">Search</button>
+    </form>
+    <div id="search-results" class="photo-grid"></div>
+  </div>
+
+  <footer>© 2026 Photo App</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

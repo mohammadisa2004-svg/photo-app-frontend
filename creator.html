@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Photo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <h1>Photo App</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="creator.html">Upload</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2 style="text-align:center; margin:20px 0;">Upload Photo</h2>
+    <form id="uploadForm">
+      <input type="file" id="photo" required>
+      <input type="text" id="title" placeholder="Title">
+      <input type="text" id="caption" placeholder="Caption">
+      <input type="text" id="location" placeholder="Location">
+      <input type="text" id="people" placeholder="People">
+      <button type="button" onclick="uploadPhoto()">Upload</button>
+    </form>
+  </div>
+
+  <footer>© 2026 Photo App</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

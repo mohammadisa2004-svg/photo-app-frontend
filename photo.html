@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Details</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <h1>Photo App</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="creator.html">Upload</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2 style="text-align:center; margin:20px 0;">Photo Details</h2>
+    <div id="photo-container"></div>
+
+    <h3>Comments</h3>
+    <input type="text" id="comment" placeholder="Add comment">
+    <button onclick="addComment()">Post Comment</button>
+
+    <h3>Rate this Photo</h3>
+    <input type="number" id="rating" min="1" max="5">
+    <button onclick="ratePhoto()">Submit Rating</button>
+  </div>
+
+  <footer>© 2026 Photo App</footer>
+  <script src="js/main.js"></script>
+  <script>
+    const photoId = new URLSearchParams(window.location.search).get('id');
+    loadPhoto(photoId);
+  </script>
+</body>
+</html>

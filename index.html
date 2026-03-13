@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo App - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Photo App</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="search.html">Search</a>
+      <a href="creator.html">Upload</a>
+    </div>
+  </nav>
+
+  <!-- Main container -->
+  <div class="container">
+    <h2 style="text-align:center; margin:20px 0;">All Photos</h2>
+    <div id="photo-list" class="photo-grid"></div>
+  </div>
+
+  <footer>© 2026 Photo App</footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    fetchPhotos();
+  </script>
+</body>
+</html>
