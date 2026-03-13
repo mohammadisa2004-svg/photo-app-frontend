@@ -1,4 +1,4 @@
-const backendURL = "https://photo-api-app.azurewebsites.net";
+const backendURL = "https://photo-api-app-h3b6fbf8d9dxhkdp.ukwest-01.azurewebsites.net"";
 
 function fetchPhotos() {
   fetch(`${backendURL}/photos`)
