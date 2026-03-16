@@ -1,4 +1,4 @@
-const backendURL = "https://photo-api-app-h3b6fbf8d9dxhkdp.ukwest-01.azurewebsites.net";
+
 
 // Fetch all photos for Home page
 function fetchPhotos() {
